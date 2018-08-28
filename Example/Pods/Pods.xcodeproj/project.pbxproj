@@ -1,0 +1,925 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01872E638586DF5044DC7D9B83654501 /* Nano-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B4DE73CE2E1A706022DE3DA484E781D /* Nano-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		172628B0FAC7B182F5CB329F78A76DAA /* NanoFPSListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 079C3622945D7D2FE171C65D3EF94B1A /* NanoFPSListener.m */; };
+		1BF55FEC0B1B7260DFD892FB75BA3DAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		261F54D49235AD0526EAD63E7A031024 /* NanoStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 006538DB95E900A8FB539561AE4613ED /* NanoStack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31D33006344323E13B59717119272869 /* Pods-Nano_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F7F5CCA33E6667E3AD52C00028DAE3D /* Pods-Nano_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35349A25EF38DD44A8E2392F468A1629 /* NanoFPSDog.h in Headers */ = {isa = PBXBuildFile; fileRef = F98AC108E01F60C7FFE645129093E761 /* NanoFPSDog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C3CAC7CC5E50A1116C081B496702F20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3E97AD40B49BEAAC3812142C2A38EBCA /* NanoFPSView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88701AE0061D93E5274251A39E92CE61 /* NanoFPSView.m */; };
+		4A4252BDDCA132B6B77D6532F87A4875 /* NanoLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C44F0058DDFCA0FB05C596F78F24475 /* NanoLog.m */; };
+		4B0DAA65DC689E4554BD28F9808A49D6 /* NanoLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = DB8D7D69562034F49FF8E77CA3764AAF /* NanoLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51F11B1B063A52B083B475BCBE0195BB /* Pods-Nano_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00184C389871202BC2633B4E6B94E0EC /* Pods-Nano_Example-dummy.m */; };
+		70F3C5788CFDC7776A6A8D1D20B8623D /* NanoStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 967A7C8D941C0F6BE11ED4A5C4E54962 /* NanoStack.m */; };
+		73C2C21F8D7D073CEAA7F87FDA9F8D21 /* NanoLooperDog.m in Sources */ = {isa = PBXBuildFile; fileRef = C4182E212A5F9AC7FA67C983CC6B3CC6 /* NanoLooperDog.m */; };
+		77BFB32C186C61CD9D8F34EA7D962603 /* Nano.m in Sources */ = {isa = PBXBuildFile; fileRef = 38527C20467815D45145694912B8C435 /* Nano.m */; };
+		78432A9CDA02A6495A32DE001706C0B0 /* UIDevice+afm_Hardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 6498B222A97CCC77B3B306458EB9BBA2 /* UIDevice+afm_Hardware.m */; };
+		79526830A3B6A2DAC458C01CDC36BD0C /* NanoThreadTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D98A2F89C64FEA25400F27CB53DA746 /* NanoThreadTrace.m */; };
+		9973EE85CE6E8F6F169E85E2F9B23ADA /* NanoUIUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EEF23DE67FAE99F959752DD8AB4730E /* NanoUIUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A751E7CCA4EEF38F62F5CA7A2D596C45 /* NanoTick.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F991A9728DAA6A046090676BA2AFAE /* NanoTick.m */; };
+		A7E6F27D25447C19184413B5BBE4C828 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AD4AED5F282D0351A496288C4610B51D /* Nano.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C2362C4C47516B17FC92479286D0D1B /* Nano.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B025EFF29A97FFE553934041A8BA0AB3 /* NanoUIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A1424DBB3BD14291E622DF10D27F3E69 /* NanoUIUtils.m */; };
+		B1537F7B842801F4C8903AD296A02001 /* NanoLooperDog.h in Headers */ = {isa = PBXBuildFile; fileRef = 3090842BBD9703187E2B0BA0EBD5602E /* NanoLooperDog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6AE7EEFF2FB2C75ED28128AA6C4A90F /* UIDevice+afm_Hardware.h in Headers */ = {isa = PBXBuildFile; fileRef = A38CFBE1110681AE288287EBC8BC93EA /* UIDevice+afm_Hardware.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2EDB294143EB9BB54252F7556EDEA4D /* NanoThreadTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ABEA005558A1747F3697F5BD6BA5C28 /* NanoThreadTrace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C90B107C8E94AD66A3AFF257F717490D /* NanoLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A83C1749ABC04D19591B3B8E116AA12 /* NanoLogger.m */; };
+		D54DBED1D6E8CF06D93986845FB695C6 /* NanoFPSListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 030F04EF20953F96A05AD2A852B98338 /* NanoFPSListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8B1D582E6B962004061D20357758C47 /* Pods-Nano_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0242F461D8758EB1E88FD40D70CD48 /* Pods-Nano_Tests-dummy.m */; };
+		DA754ECD270E3831A6CC745BCDAFAFF6 /* NanoFPSView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E66B890D98E2E7F3D24C3ECDC27E223 /* NanoFPSView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F84E8023330A057EA3E2228805FF25AE /* NanoFPSDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B09561FAC932E68EB7671CBEA9414EE /* NanoFPSDog.m */; };
+		F98A9C6EAB7F0E41EBC00E9E9C7AD399 /* Pods-Nano_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEF02FD7F9997D2DC0B149EFAE32A517 /* Pods-Nano_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F99BBCF7DB8FFF55E90D7ED9BCD8DED5 /* NanoTick.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AFB3942E6BF27A4CB4B94CC7B7872B2 /* NanoTick.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB7D074D431693BBBC5D76A98B95545C /* Nano-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9C90DEFB369F7D568134D80AC737A4 /* Nano-dummy.m */; };
+		FED35B57257FBC93475311306A00F7CB /* NanoLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 41FAE700FE9E742B51D913FADD4F6C03 /* NanoLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5291740B892FBD7D7A4C001D472D61C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8949138C99C0FDF3D4747B5AFD55DB48;
+			remoteInfo = Nano;
+		};
+		936012CAC48157F43F8B5B74A0110103 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC8672415D20480EEA34A2083824F5E1;
+			remoteInfo = "Pods-Nano_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00184C389871202BC2633B4E6B94E0EC /* Pods-Nano_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Nano_Example-dummy.m"; sourceTree = "<group>"; };
+		006538DB95E900A8FB539561AE4613ED /* NanoStack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NanoStack.h; sourceTree = "<group>"; };
+		030F04EF20953F96A05AD2A852B98338 /* NanoFPSListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NanoFPSListener.h; sourceTree = "<group>"; };
+		05645BDA27A73C20B83FAFEFF6CE6817 /* Pods_Nano_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Nano_Tests.framework; path = "Pods-Nano_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		079C3622945D7D2FE171C65D3EF94B1A /* NanoFPSListener.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NanoFPSListener.m; sourceTree = "<group>"; };
+		0AFB3942E6BF27A4CB4B94CC7B7872B2 /* NanoTick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NanoTick.h; sourceTree = "<group>"; };
+		0DE9F32AF7AEC8DFA15D9B771172D832 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F7F5CCA33E6667E3AD52C00028DAE3D /* Pods-Nano_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Nano_Example-umbrella.h"; sourceTree = "<group>"; };
+		1E66B890D98E2E7F3D24C3ECDC27E223 /* NanoFPSView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NanoFPSView.h; sourceTree = "<group>"; };
+		22DD18D8DF9279C893ADC68B87602C74 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E8E0888491172DAF473A5565003C0F3 /* Nano.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Nano.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3090842BBD9703187E2B0BA0EBD5602E /* NanoLooperDog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NanoLooperDog.h; sourceTree = "<group>"; };
+		36747CB763774DC5FFD55CA706643262 /* Pods-Nano_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Nano_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		38527C20467815D45145694912B8C435 /* Nano.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Nano.m; path = Nano/Classes/Nano.m; sourceTree = "<group>"; };
+		3C44F0058DDFCA0FB05C596F78F24475 /* NanoLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NanoLog.m; sourceTree = "<group>"; };
+		3F9C90DEFB369F7D568134D80AC737A4 /* Nano-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Nano-dummy.m"; sourceTree = "<group>"; };
+		41FAE700FE9E742B51D913FADD4F6C03 /* NanoLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NanoLog.h; sourceTree = "<group>"; };
+		4A83C1749ABC04D19591B3B8E116AA12 /* NanoLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NanoLogger.m; sourceTree = "<group>"; };
+		4B4DE73CE2E1A706022DE3DA484E781D /* Nano-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nano-umbrella.h"; sourceTree = "<group>"; };
+		4C2FF3BA6106E6B75639ABA166AFD718 /* Pods-Nano_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Nano_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4EEF23DE67FAE99F959752DD8AB4730E /* NanoUIUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NanoUIUtils.h; sourceTree = "<group>"; };
+		56670E8F3455B8FDEBA11D0A2F570FA3 /* Pods-Nano_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Nano_Example-resources.sh"; sourceTree = "<group>"; };
+		57856E4B15D39ABD055635655FFB7EC3 /* Pods-Nano_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Nano_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		5B09561FAC932E68EB7671CBEA9414EE /* NanoFPSDog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NanoFPSDog.m; sourceTree = "<group>"; };
+		5C2362C4C47516B17FC92479286D0D1B /* Nano.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Nano.h; path = Nano/Classes/Nano.h; sourceTree = "<group>"; };
+		6498B222A97CCC77B3B306458EB9BBA2 /* UIDevice+afm_Hardware.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+afm_Hardware.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		68E1B9CDD119A99B6D73713DCD5BF9E8 /* Pods-Nano_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Nano_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6904DF88A91EFE6052D01F91BD5B9361 /* Pods-Nano_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Nano_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6D4DAD0F5CBD23FD76B069024AA8E4DD /* Nano.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Nano.xcconfig; sourceTree = "<group>"; };
+		6F095121A8576C7D5FC65F6D958B6827 /* Pods-Nano_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Nano_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7BAFB8676D5DE1486DD41CD8FA7D8EC1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83341F471D4A32765184EA8FB3A0EC5B /* Pods_Nano_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Nano_Example.framework; path = "Pods-Nano_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88701AE0061D93E5274251A39E92CE61 /* NanoFPSView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NanoFPSView.m; sourceTree = "<group>"; };
+		8ABEA005558A1747F3697F5BD6BA5C28 /* NanoThreadTrace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NanoThreadTrace.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		967A7C8D941C0F6BE11ED4A5C4E54962 /* NanoStack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NanoStack.m; sourceTree = "<group>"; };
+		9A0242F461D8758EB1E88FD40D70CD48 /* Pods-Nano_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Nano_Tests-dummy.m"; sourceTree = "<group>"; };
+		9D98A2F89C64FEA25400F27CB53DA746 /* NanoThreadTrace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NanoThreadTrace.m; sourceTree = "<group>"; };
+		A1424DBB3BD14291E622DF10D27F3E69 /* NanoUIUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NanoUIUtils.m; sourceTree = "<group>"; };
+		A3352F7929F766F89E1EBF4F039DBB96 /* Pods-Nano_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Nano_Tests-resources.sh"; sourceTree = "<group>"; };
+		A38CFBE1110681AE288287EBC8BC93EA /* UIDevice+afm_Hardware.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIDevice+afm_Hardware.h"; sourceTree = "<group>"; };
+		AC350327CB948631414F5561C1E05D1B /* Nano-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nano-prefix.pch"; sourceTree = "<group>"; };
+		ACAB4AF7F6DE6F2C90983AA7E4EDD5BC /* Pods-Nano_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Nano_Example.modulemap"; sourceTree = "<group>"; };
+		AE635A3933BEDEF555169B82F6018D1C /* Nano.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Nano.modulemap; sourceTree = "<group>"; };
+		B1651CC361E76F9BB07B12FFC6814D8F /* Pods-Nano_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Nano_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B287258CDBB3F8848A386A609C7B415D /* Pods-Nano_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Nano_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B47A184D8FE0362CACCA4E016764E74B /* Pods-Nano_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Nano_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B650E69E06AA2F47E78F01424400B107 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C4182E212A5F9AC7FA67C983CC6B3CC6 /* NanoLooperDog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NanoLooperDog.m; sourceTree = "<group>"; };
+		CEF02FD7F9997D2DC0B149EFAE32A517 /* Pods-Nano_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Nano_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DB8D7D69562034F49FF8E77CA3764AAF /* NanoLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NanoLogger.h; sourceTree = "<group>"; };
+		DC21E7931E26A5917BDC655D2B5298D4 /* Pods-Nano_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Nano_Tests.modulemap"; sourceTree = "<group>"; };
+		E4F991A9728DAA6A046090676BA2AFAE /* NanoTick.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NanoTick.m; sourceTree = "<group>"; };
+		EF0BFFBE36B179A22222B2878199B708 /* Nano.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Nano.framework; path = Nano.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F38D93AE2F98EA695311F9947A6ED464 /* Pods-Nano_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Nano_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F53E4739912805CF7DAFDF0F95A8DDB1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F98AC108E01F60C7FFE645129093E761 /* NanoFPSDog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NanoFPSDog.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3AE57638A14FECE106375BD2DDA5CFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BF55FEC0B1B7260DFD892FB75BA3DAD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB7EAF8CB6B98EEC9D3C3C44384EB72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C3CAC7CC5E50A1116C081B496702F20 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA557831A71478757E668EE20EE9C0FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7E6F27D25447C19184413B5BBE4C828 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AA20F5DB4C1DFFDD7497C9CF783D9D5 /* WatchDog */ = {
+			isa = PBXGroup;
+			children = (
+				889E2399D23402299F64CEE3C229C1E0 /* FPSDog */,
+				E8ACFAA768FE835CF6FB98FA8CF7458E /* LooperDog */,
+				FEEFB07DAF9A16CDF641E722B29BDDF4 /* Trace */,
+			);
+			name = WatchDog;
+			path = Nano/Classes/WatchDog;
+			sourceTree = "<group>";
+		};
+		17E2606A5AFE757335D54C4DEE5312E3 /* NanoLog */ = {
+			isa = PBXGroup;
+			children = (
+				41FAE700FE9E742B51D913FADD4F6C03 /* NanoLog.h */,
+				3C44F0058DDFCA0FB05C596F78F24475 /* NanoLog.m */,
+			);
+			name = NanoLog;
+			path = NanoLog;
+			sourceTree = "<group>";
+		};
+		339CA41DC111010D0D3C802E6E232633 /* Nano */ = {
+			isa = PBXGroup;
+			children = (
+				5C2362C4C47516B17FC92479286D0D1B /* Nano.h */,
+				38527C20467815D45145694912B8C435 /* Nano.m */,
+				5B4229D690B357D66E1E7399364BF127 /* Pod */,
+				8BC174DE87BF5E8C6067649FC0735721 /* Support Files */,
+				D26BAF4BECDCB6D390EDF22C5372F046 /* Ticker */,
+				ED39A3FA77C1D8613075F152569DAF62 /* Utils */,
+				DA47091D30877D70B0FC60BEDD04D743 /* VC */,
+				0AA20F5DB4C1DFFDD7497C9CF783D9D5 /* WatchDog */,
+			);
+			name = Nano;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		33C518E8617F2C6E7F6608195F859A7C /* Stacks */ = {
+			isa = PBXGroup;
+			children = (
+				006538DB95E900A8FB539561AE4613ED /* NanoStack.h */,
+				967A7C8D941C0F6BE11ED4A5C4E54962 /* NanoStack.m */,
+				8ABEA005558A1747F3697F5BD6BA5C28 /* NanoThreadTrace.h */,
+				9D98A2F89C64FEA25400F27CB53DA746 /* NanoThreadTrace.m */,
+			);
+			name = Stacks;
+			path = Stacks;
+			sourceTree = "<group>";
+		};
+		5B4229D690B357D66E1E7399364BF127 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F53E4739912805CF7DAFDF0F95A8DDB1 /* LICENSE */,
+				2E8E0888491172DAF473A5565003C0F3 /* Nano.podspec */,
+				B650E69E06AA2F47E78F01424400B107 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		71BF7CE7F1664FCF7C9DBBDA2B742836 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				77F651ED7C3308DAAA5F36ABD03AE12D /* Pods-Nano_Example */,
+				AB90837B7342B441C5EF9132B1C0CC36 /* Pods-Nano_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		77F651ED7C3308DAAA5F36ABD03AE12D /* Pods-Nano_Example */ = {
+			isa = PBXGroup;
+			children = (
+				22DD18D8DF9279C893ADC68B87602C74 /* Info.plist */,
+				ACAB4AF7F6DE6F2C90983AA7E4EDD5BC /* Pods-Nano_Example.modulemap */,
+				B1651CC361E76F9BB07B12FFC6814D8F /* Pods-Nano_Example-acknowledgements.markdown */,
+				B287258CDBB3F8848A386A609C7B415D /* Pods-Nano_Example-acknowledgements.plist */,
+				00184C389871202BC2633B4E6B94E0EC /* Pods-Nano_Example-dummy.m */,
+				B47A184D8FE0362CACCA4E016764E74B /* Pods-Nano_Example-frameworks.sh */,
+				56670E8F3455B8FDEBA11D0A2F570FA3 /* Pods-Nano_Example-resources.sh */,
+				0F7F5CCA33E6667E3AD52C00028DAE3D /* Pods-Nano_Example-umbrella.h */,
+				68E1B9CDD119A99B6D73713DCD5BF9E8 /* Pods-Nano_Example.debug.xcconfig */,
+				6F095121A8576C7D5FC65F6D958B6827 /* Pods-Nano_Example.release.xcconfig */,
+			);
+			name = "Pods-Nano_Example";
+			path = "Target Support Files/Pods-Nano_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A2A30A67739516522740D5AD428426BA /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				DF047DB98A713217CDBE5EA054B6A0AD /* Products */,
+				71BF7CE7F1664FCF7C9DBBDA2B742836 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		889E2399D23402299F64CEE3C229C1E0 /* FPSDog */ = {
+			isa = PBXGroup;
+			children = (
+				F98AC108E01F60C7FFE645129093E761 /* NanoFPSDog.h */,
+				5B09561FAC932E68EB7671CBEA9414EE /* NanoFPSDog.m */,
+				030F04EF20953F96A05AD2A852B98338 /* NanoFPSListener.h */,
+				079C3622945D7D2FE171C65D3EF94B1A /* NanoFPSListener.m */,
+			);
+			name = FPSDog;
+			path = FPSDog;
+			sourceTree = "<group>";
+		};
+		8BC174DE87BF5E8C6067649FC0735721 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BAFB8676D5DE1486DD41CD8FA7D8EC1 /* Info.plist */,
+				AE635A3933BEDEF555169B82F6018D1C /* Nano.modulemap */,
+				6D4DAD0F5CBD23FD76B069024AA8E4DD /* Nano.xcconfig */,
+				3F9C90DEFB369F7D568134D80AC737A4 /* Nano-dummy.m */,
+				AC350327CB948631414F5561C1E05D1B /* Nano-prefix.pch */,
+				4B4DE73CE2E1A706022DE3DA484E781D /* Nano-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Nano";
+			sourceTree = "<group>";
+		};
+		A2A30A67739516522740D5AD428426BA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				339CA41DC111010D0D3C802E6E232633 /* Nano */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AB90837B7342B441C5EF9132B1C0CC36 /* Pods-Nano_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0DE9F32AF7AEC8DFA15D9B771172D832 /* Info.plist */,
+				DC21E7931E26A5917BDC655D2B5298D4 /* Pods-Nano_Tests.modulemap */,
+				6904DF88A91EFE6052D01F91BD5B9361 /* Pods-Nano_Tests-acknowledgements.markdown */,
+				36747CB763774DC5FFD55CA706643262 /* Pods-Nano_Tests-acknowledgements.plist */,
+				9A0242F461D8758EB1E88FD40D70CD48 /* Pods-Nano_Tests-dummy.m */,
+				57856E4B15D39ABD055635655FFB7EC3 /* Pods-Nano_Tests-frameworks.sh */,
+				A3352F7929F766F89E1EBF4F039DBB96 /* Pods-Nano_Tests-resources.sh */,
+				CEF02FD7F9997D2DC0B149EFAE32A517 /* Pods-Nano_Tests-umbrella.h */,
+				F38D93AE2F98EA695311F9947A6ED464 /* Pods-Nano_Tests.debug.xcconfig */,
+				4C2FF3BA6106E6B75639ABA166AFD718 /* Pods-Nano_Tests.release.xcconfig */,
+			);
+			name = "Pods-Nano_Tests";
+			path = "Target Support Files/Pods-Nano_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D26BAF4BECDCB6D390EDF22C5372F046 /* Ticker */ = {
+			isa = PBXGroup;
+			children = (
+				DB8D7D69562034F49FF8E77CA3764AAF /* NanoLogger.h */,
+				4A83C1749ABC04D19591B3B8E116AA12 /* NanoLogger.m */,
+				0AFB3942E6BF27A4CB4B94CC7B7872B2 /* NanoTick.h */,
+				E4F991A9728DAA6A046090676BA2AFAE /* NanoTick.m */,
+			);
+			name = Ticker;
+			path = Nano/Classes/Ticker;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DA47091D30877D70B0FC60BEDD04D743 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				FFF47A61D11B5BDA7EDD2C384BD7839F /* View */,
+			);
+			name = VC;
+			path = Nano/Classes/VC;
+			sourceTree = "<group>";
+		};
+		DF047DB98A713217CDBE5EA054B6A0AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF0BFFBE36B179A22222B2878199B708 /* Nano.framework */,
+				83341F471D4A32765184EA8FB3A0EC5B /* Pods_Nano_Example.framework */,
+				05645BDA27A73C20B83FAFEFF6CE6817 /* Pods_Nano_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8ACFAA768FE835CF6FB98FA8CF7458E /* LooperDog */ = {
+			isa = PBXGroup;
+			children = (
+				3090842BBD9703187E2B0BA0EBD5602E /* NanoLooperDog.h */,
+				C4182E212A5F9AC7FA67C983CC6B3CC6 /* NanoLooperDog.m */,
+			);
+			name = LooperDog;
+			path = LooperDog;
+			sourceTree = "<group>";
+		};
+		ED39A3FA77C1D8613075F152569DAF62 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4EEF23DE67FAE99F959752DD8AB4730E /* NanoUIUtils.h */,
+				A1424DBB3BD14291E622DF10D27F3E69 /* NanoUIUtils.m */,
+				A38CFBE1110681AE288287EBC8BC93EA /* UIDevice+afm_Hardware.h */,
+				6498B222A97CCC77B3B306458EB9BBA2 /* UIDevice+afm_Hardware.m */,
+			);
+			name = Utils;
+			path = Nano/Classes/Utils;
+			sourceTree = "<group>";
+		};
+		FEEFB07DAF9A16CDF641E722B29BDDF4 /* Trace */ = {
+			isa = PBXGroup;
+			children = (
+				17E2606A5AFE757335D54C4DEE5312E3 /* NanoLog */,
+				33C518E8617F2C6E7F6608195F859A7C /* Stacks */,
+			);
+			name = Trace;
+			path = Trace;
+			sourceTree = "<group>";
+		};
+		FFF47A61D11B5BDA7EDD2C384BD7839F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1E66B890D98E2E7F3D24C3ECDC27E223 /* NanoFPSView.h */,
+				88701AE0061D93E5274251A39E92CE61 /* NanoFPSView.m */,
+			);
+			name = View;
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D91339C439606E04CB7A82AEC2451A8B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01872E638586DF5044DC7D9B83654501 /* Nano-umbrella.h in Headers */,
+				AD4AED5F282D0351A496288C4610B51D /* Nano.h in Headers */,
+				35349A25EF38DD44A8E2392F468A1629 /* NanoFPSDog.h in Headers */,
+				D54DBED1D6E8CF06D93986845FB695C6 /* NanoFPSListener.h in Headers */,
+				DA754ECD270E3831A6CC745BCDAFAFF6 /* NanoFPSView.h in Headers */,
+				FED35B57257FBC93475311306A00F7CB /* NanoLog.h in Headers */,
+				4B0DAA65DC689E4554BD28F9808A49D6 /* NanoLogger.h in Headers */,
+				B1537F7B842801F4C8903AD296A02001 /* NanoLooperDog.h in Headers */,
+				261F54D49235AD0526EAD63E7A031024 /* NanoStack.h in Headers */,
+				C2EDB294143EB9BB54252F7556EDEA4D /* NanoThreadTrace.h in Headers */,
+				F99BBCF7DB8FFF55E90D7ED9BCD8DED5 /* NanoTick.h in Headers */,
+				9973EE85CE6E8F6F169E85E2F9B23ADA /* NanoUIUtils.h in Headers */,
+				B6AE7EEFF2FB2C75ED28128AA6C4A90F /* UIDevice+afm_Hardware.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E873274D61748A9607B86774914D8C81 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31D33006344323E13B59717119272869 /* Pods-Nano_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2ECC3CA08B9ADFB6C11257EF4619BC0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F98A9C6EAB7F0E41EBC00E9E9C7AD399 /* Pods-Nano_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3E0EAE354321721FEDABEBFCA235FBD3 /* Pods-Nano_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 498D0EF6F0FADD8B380B2B7686AB0EF4 /* Build configuration list for PBXNativeTarget "Pods-Nano_Tests" */;
+			buildPhases = (
+				6DE4356279257077EFCF178CF4378FA9 /* Sources */,
+				CCB7EAF8CB6B98EEC9D3C3C44384EB72 /* Frameworks */,
+				F2ECC3CA08B9ADFB6C11257EF4619BC0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA96208DC4358F96F14D8CF851395AC /* PBXTargetDependency */,
+			);
+			name = "Pods-Nano_Tests";
+			productName = "Pods-Nano_Tests";
+			productReference = 05645BDA27A73C20B83FAFEFF6CE6817 /* Pods_Nano_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8949138C99C0FDF3D4747B5AFD55DB48 /* Nano */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DFB90E4F48C5A2102904AE85541EC08 /* Build configuration list for PBXNativeTarget "Nano" */;
+			buildPhases = (
+				8B9A012B576B0E64902B9811C506B634 /* Sources */,
+				DA557831A71478757E668EE20EE9C0FE /* Frameworks */,
+				D91339C439606E04CB7A82AEC2451A8B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nano;
+			productName = Nano;
+			productReference = EF0BFFBE36B179A22222B2878199B708 /* Nano.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BC8672415D20480EEA34A2083824F5E1 /* Pods-Nano_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41474039AB0D44189C5DA98A90C4D2E2 /* Build configuration list for PBXNativeTarget "Pods-Nano_Example" */;
+			buildPhases = (
+				3F34D6111632525DB5DE9F83E69874D5 /* Sources */,
+				C3AE57638A14FECE106375BD2DDA5CFD /* Frameworks */,
+				E873274D61748A9607B86774914D8C81 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				303CE06E480A3449C55DA65304EEFB20 /* PBXTargetDependency */,
+			);
+			name = "Pods-Nano_Example";
+			productName = "Pods-Nano_Example";
+			productReference = 83341F471D4A32765184EA8FB3A0EC5B /* Pods_Nano_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DF047DB98A713217CDBE5EA054B6A0AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8949138C99C0FDF3D4747B5AFD55DB48 /* Nano */,
+				BC8672415D20480EEA34A2083824F5E1 /* Pods-Nano_Example */,
+				3E0EAE354321721FEDABEBFCA235FBD3 /* Pods-Nano_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F34D6111632525DB5DE9F83E69874D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51F11B1B063A52B083B475BCBE0195BB /* Pods-Nano_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DE4356279257077EFCF178CF4378FA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8B1D582E6B962004061D20357758C47 /* Pods-Nano_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B9A012B576B0E64902B9811C506B634 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7D074D431693BBBC5D76A98B95545C /* Nano-dummy.m in Sources */,
+				77BFB32C186C61CD9D8F34EA7D962603 /* Nano.m in Sources */,
+				F84E8023330A057EA3E2228805FF25AE /* NanoFPSDog.m in Sources */,
+				172628B0FAC7B182F5CB329F78A76DAA /* NanoFPSListener.m in Sources */,
+				3E97AD40B49BEAAC3812142C2A38EBCA /* NanoFPSView.m in Sources */,
+				4A4252BDDCA132B6B77D6532F87A4875 /* NanoLog.m in Sources */,
+				C90B107C8E94AD66A3AFF257F717490D /* NanoLogger.m in Sources */,
+				73C2C21F8D7D073CEAA7F87FDA9F8D21 /* NanoLooperDog.m in Sources */,
+				70F3C5788CFDC7776A6A8D1D20B8623D /* NanoStack.m in Sources */,
+				79526830A3B6A2DAC458C01CDC36BD0C /* NanoThreadTrace.m in Sources */,
+				A751E7CCA4EEF38F62F5CA7A2D596C45 /* NanoTick.m in Sources */,
+				B025EFF29A97FFE553934041A8BA0AB3 /* NanoUIUtils.m in Sources */,
+				78432A9CDA02A6495A32DE001706C0B0 /* UIDevice+afm_Hardware.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		303CE06E480A3449C55DA65304EEFB20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Nano;
+			target = 8949138C99C0FDF3D4747B5AFD55DB48 /* Nano */;
+			targetProxy = 5291740B892FBD7D7A4C001D472D61C0 /* PBXContainerItemProxy */;
+		};
+		FAA96208DC4358F96F14D8CF851395AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Nano_Example";
+			target = BC8672415D20480EEA34A2083824F5E1 /* Pods-Nano_Example */;
+			targetProxy = 936012CAC48157F43F8B5B74A0110103 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0512C7185C8332C087182164ADF373FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F095121A8576C7D5FC65F6D958B6827 /* Pods-Nano_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Nano_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Nano_Example/Pods-Nano_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		849AF39C5BB2BD187A80CDCCF53C6508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C2FF3BA6106E6B75639ABA166AFD718 /* Pods-Nano_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Nano_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Nano_Tests/Pods-Nano_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ABF6DFFF558C119F5BCC61EF33AE6289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68E1B9CDD119A99B6D73713DCD5BF9E8 /* Pods-Nano_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Nano_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Nano_Example/Pods-Nano_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D5811EB7F7F1FCFA22085ACA9F9D9381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D4DAD0F5CBD23FD76B069024AA8E4DD /* Nano.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Nano/Nano-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Nano/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Nano/Nano.modulemap";
+				PRODUCT_MODULE_NAME = Nano;
+				PRODUCT_NAME = Nano;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D82F7F8A262C75EE9ABF7A56A152C748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F38D93AE2F98EA695311F9947A6ED464 /* Pods-Nano_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Nano_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Nano_Tests/Pods-Nano_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FDCF563E3F3BB8B6768C299B18396012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D4DAD0F5CBD23FD76B069024AA8E4DD /* Nano.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Nano/Nano-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Nano/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Nano/Nano.modulemap";
+				PRODUCT_MODULE_NAME = Nano;
+				PRODUCT_NAME = Nano;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41474039AB0D44189C5DA98A90C4D2E2 /* Build configuration list for PBXNativeTarget "Pods-Nano_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF6DFFF558C119F5BCC61EF33AE6289 /* Debug */,
+				0512C7185C8332C087182164ADF373FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		498D0EF6F0FADD8B380B2B7686AB0EF4 /* Build configuration list for PBXNativeTarget "Pods-Nano_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D82F7F8A262C75EE9ABF7A56A152C748 /* Debug */,
+				849AF39C5BB2BD187A80CDCCF53C6508 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DFB90E4F48C5A2102904AE85541EC08 /* Build configuration list for PBXNativeTarget "Nano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDCF563E3F3BB8B6768C299B18396012 /* Debug */,
+				D5811EB7F7F1FCFA22085ACA9F9D9381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - Nano (0.1.0)
+
+DEPENDENCIES:
+  - Nano (from `../`)
+
+EXTERNAL SOURCES:
+  Nano:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Nano: a4bda1150c2b67683d0034c4599612c2e2857e3a
+
+PODFILE CHECKSUM: 62448005d97ac2bef769bf4ec264cc5c335f7145
+
+COCOAPODS: 1.5.0

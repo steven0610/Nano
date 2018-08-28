@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Nano_Example' do
+  pod 'Nano', :path => '../'
+
+  target 'Nano_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

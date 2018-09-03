@@ -67,7 +67,7 @@ static NanoFPSDog* _instance = nil;
  * 在子线程监控时长
  */
 -(void)startWatchWithMSec:(uint64_t)msec {
-    //间隔还是2秒
+    //间隔还是200毫秒
     uint64_t interval = msec * NSEC_PER_MSEC;
     //创建一个专门执行timer回调的GCD队列
     dispatch_queue_t queue = dispatch_queue_create(kNanoFPSDog_Watch_Queue, 0);

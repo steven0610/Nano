@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Nano'
-  s.version          = '0.2.1'
+  s.version          = '0.2.2'
   s.summary          = 'A real-time performance testing tool.'
 
 # This description is used to generate tags and improve search results.

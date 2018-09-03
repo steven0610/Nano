@@ -8,6 +8,7 @@
 
 #import "NanoAppDelegate.h"
 #import <Nano/Nano.h>
+#import <Nano/NanoLogger.h>
 
 @implementation NanoAppDelegate
 
@@ -15,9 +16,10 @@
 {
     // Override point for customization after application launch.
     
+    logNanoWithDes(@"nano init start");
     [[NanoFPSDog shareInstance] start];
     [Nano shareInstance].fpsViewShow = YES;
-    
+    logNanoWithDes(@"nano init finish");
     return YES;
 }
 

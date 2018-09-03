@@ -93,7 +93,7 @@ static NanoFPSListener* _instance = nil;
 
 
 -(void)updateFPSCount:(NSInteger)fpsCount {
-    NSLog(@"Current FPS = %ld",fpsCount);
+//    NSLog(@"Current FPS = %ld",fpsCount);
     
     [Nano shareInstance].fps = fpsCount;
 }

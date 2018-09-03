@@ -15,10 +15,8 @@
 {
     // Override point for customization after application launch.
     
-    dispatch_async(dispatch_get_global_queue(0, 0), ^{
-        [[NanoFPSDog shareInstance] start];
-        [Nano shareInstance].fpsViewShow = YES;
-    });
+    [[NanoFPSDog shareInstance] start];
+    [Nano shareInstance].fpsViewShow = YES;
     
     return YES;
 }

@@ -99,10 +99,17 @@ static NanoFPSDog* _instance = nil;
     dispatch_resume(_timer);
 }
 
-
+static bool isCalling;
 -(void)callKartun {
+    
+    if (isCalling) {
+        return;
+    }
+    
+    isCalling = YES;
     NSString* stacks = [NanoStack allThreadSymbols];
     [[NanoLog shareInstance] printLogs:stacks];
+    isCalling = NO;
 }
 
 @end

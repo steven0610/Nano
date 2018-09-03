@@ -110,9 +110,17 @@ static void runLoopObserverCallBack(CFRunLoopObserverRef observer, CFRunLoopActi
     observer = NULL;
 }
 
+static bool isCalling;
 -(void)callKartun {
+    
+    if (isCalling) {
+        return;
+    }
+    
+    isCalling = YES;
     NSString* stacks = [NanoStack allThreadSymbols];
     [[NanoLog shareInstance] printLogs:stacks];
+    isCalling = NO;
 }
 
 @end

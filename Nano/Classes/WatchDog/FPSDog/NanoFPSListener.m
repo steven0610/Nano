@@ -85,7 +85,7 @@ static NanoFPSListener* _instance = nil;
     if(interval >= 1) {
         _lastUpdateTimestamp = _displayLink.timestamp;
         _currentFPS = _historyCount / ((NSInteger)interval); /* 注意，这里要进行强转，否则 NSInteger/double会得出不准确的结果  */
-        NSLog(@"_historyCount = %ld , interval = %f",_historyCount,interval);
+        //NSLog(@"_historyCount = %ld , interval = %f",_historyCount,interval);
         _historyCount = 0;
         [self updateFPSCount:_currentFPS];
     }
